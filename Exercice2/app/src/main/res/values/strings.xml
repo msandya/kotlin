@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exercice2</string>
+    <string name="login_button" />
+    <string name="no_information" />
+    <string name="text_name" />
+    <string name="textview">TextView</string>
+</resources>
