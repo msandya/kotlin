@@ -41,4 +41,5 @@ dependencies {
     kapt  "androidx.room:room-compiler:$room_version"
 
     implementation "androidx.recyclerview:recyclerview:1.1.0"
+    implementation "androidx.cardview:cardview:1.0.0"
 }

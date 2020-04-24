@@ -1,8 +1,6 @@
 package com.example.roomdatabase
 
-import androidx.room.Dao
-import androidx.room.Insert
-import androidx.room.Query
+import androidx.room.*
 
 @Dao
 interface FriendDao {
@@ -12,4 +10,10 @@ interface FriendDao {
 
     @Insert
     fun insertFriend( friend : Friend)
+
+    @Update
+    fun updateFriend(friend: Friend)
+
+    @Delete
+    fun deleteFriend(friend: Friend)
 }
